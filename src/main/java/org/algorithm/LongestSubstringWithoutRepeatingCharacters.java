@@ -1,5 +1,11 @@
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
+package org.algorithm;
+
+import java.util.HashSet;
+import java.util.Set;
+class LongestSubstringWithoutRepeatingCharacters{
+
+
+    int lengthOfLongestSubstring(String s) {
         int i = 0, j = 0;
         int max = 0;
         Set<Character> set = new HashSet<>();
